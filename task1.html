@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //1.37//
+        let a, b, hypotenuse, perimetr;
+        a = parseInt(prompt("введите первый катет  ",0));
+        b = parseInt(prompt("введите второй  катет  ",0));
+        hypotenuse = Math.sqrt(a * a + b * b);
+        perimetr = (a + b + hypotenuse);
+        console.log(hypotenuse);
+
+        alert("P треугольника " + perimetr);
+
+
+    </script>
+
+    <script>
+        //2.19//
+        let number, d1, d2,d3,d4
+        number = parseInt(prompt("введите 4-ти значное число ="))
+        d1 = number % 10
+        d2 = Math.floor(number/10)% 10
+        d3 = Math.floor(number/100)% 10
+        d4 = Math.floor(number/1000)% 10
+        alert(d1 + d2 + d3 + d4)
+        alert(d1 * d2 * d3 * d4)
+    </script>
+   
+</body>
+</html>
